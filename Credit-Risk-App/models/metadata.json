@@ -1,0 +1,35 @@
+{
+  "model_type": "CalibratedGradientBoosting",
+  "trained_at": "2026-05-18T12:11:41.524975+00:00",
+  "metrics": {
+    "accuracy": 0.96,
+    "precision": 0.9607,
+    "recall": 0.9942,
+    "f1": 0.9771,
+    "roc_auc": 0.975,
+    "brier_score": 0.0299,
+    "cv_roc_auc_mean": 0.981,
+    "cv_roc_auc_std": 0.0068
+  },
+  "feature_importances": {
+    "late_payments_last_12m": 0.3541,
+    "num_existing_loans": 0.332,
+    "debt_to_income_ratio": 0.1726,
+    "credit_history_years": 0.0348,
+    "avg_monthly_balance": 0.025,
+    "interest_rate": 0.0181,
+    "loan_amount": 0.0164,
+    "age": 0.0148,
+    "num_credit_cards": 0.0123,
+    "annual_income": 0.01,
+    "loan_term_months": 0.0024,
+    "gender": 0.0021,
+    "employment": 0.0021,
+    "education": 0.0018,
+    "marital_status": 0.0014
+  },
+  "train_samples": 800,
+  "test_samples": 200,
+  "default_rate": 0.86,
+  "explanation_method": "SHAP TreeExplainer (per applicant)"
+}

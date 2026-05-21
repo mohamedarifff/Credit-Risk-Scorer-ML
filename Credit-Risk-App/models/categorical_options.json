@@ -1,0 +1,22 @@
+{
+  "gender": [
+    "Female",
+    "Male"
+  ],
+  "marital_status": [
+    "Divorced",
+    "Married",
+    "Single"
+  ],
+  "education": [
+    "Diploma",
+    "Graduate",
+    "High School",
+    "Post-Graduate"
+  ],
+  "employment": [
+    "Salaried",
+    "Self-Employed",
+    "Unemployed"
+  ]
+}
